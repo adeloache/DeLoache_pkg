@@ -1,0 +1,6 @@
+^LICENSE\.md$
+^.*\.Rproj$
+^\.Rproj\.user$
+^insect.project\.Rcheck$
+^insect.project.*\.tar\.gz$
+^insect.project.*\.tgz$

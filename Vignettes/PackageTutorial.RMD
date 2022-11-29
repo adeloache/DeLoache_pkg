@@ -1,0 +1,14 @@
+---
+title: "Package Tutorial"
+author: "Allison DeLoache"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# An Introduction to the R Package 
+## smaller
+### a bit smaller 
+My R package description This makes *itallics* this makes **bold** 
+
+if you want a new paragraph you have to add a line of space in between 
+

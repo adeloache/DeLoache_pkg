@@ -1,4 +1,8 @@
-insect_proj <- read.csv("/cloud/project/Data/Insect_Project.csv")
+#' Graphing function to display the most common insect families collected 
+
+#' @return a bar plot showing the number of each family of insects that was collected
+#' 
+
 plotting_function <- function(){
 insect_proj <- read.csv("/cloud/project/Data/Insect_Project.csv")
 family_plot <- ggplot(data = insect_proj, mapping = aes(x = Family)) + geom_bar()
