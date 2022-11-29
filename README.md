@@ -15,7 +15,17 @@ My R package is designed to clean and manipulate data, as well as make a bar plo
 
 This package is designed to work with species identifications and abundance and density data.  
 
-The major outputs of this package are a csv file with no NA values, a pdf of the counts per family, and 2 variables that have been separated by stream site.  
+The major outputs of this package are a csv file with no NA values, a pdf of the counts per family, and 2 variables that have been separated by stream site. 
+
+## Downloading the Data 
+
+Please download this data file from this link 
+https://github.com/adeloache/DeLoache_pkg/blob/master/Data/Insect_Project.csv 
+and upload it into your R studio following the path "/Cloud/project/Data/Insect_Project.csv"
+
+```{r}
+read_csv("/cloud/project/Data/Insect_Project.csv")
+```
 
 ## Installation
 This package depends on the tidyverse package 
@@ -63,7 +73,7 @@ A bar graph that shows count data is useful for visualizing your data and seeing
 
 ```{r}
 stream_separation <- function(){
-insect_project <- read_csv(filepath)
+insect_project <- read_csv("/cloud/project/Data/Insect_Project.csv")
 insect_project_trim <- na.omit(insect_project)
 North_Mills <- insect_project_trim %>%
   filter(Stream == "NM") %>% 
