@@ -20,8 +20,9 @@ The major outputs of this package are a csv file with no NA values, a pdf of the
 ## Downloading the Data 
 
 Please download this data file from this link 
-https://github.com/adeloache/DeLoache_pkg/blob/master/Data/Insect_Project.csv 
-and upload it into your R studio following the path "/Cloud/project/Data/Insect_Project.csv"
+```{r}
+download.file("https://github.com/adeloache/DeLoache_pkg/blob/master/Data/Insect_Project.csv", destfile =  "/cloud/project/Data/Insect_Project.csv")
+```
 
 ```{r}
 read_csv("/cloud/project/Data/Insect_Project.csv")
