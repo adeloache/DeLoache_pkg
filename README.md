@@ -22,7 +22,7 @@ The major outputs of this package are a csv file with no NA values, a pdf of the
 Please download this data file from this link 
 ```{r}
 download.file("https://github.com/adeloache/DeLoache_pkg/blob/master/Data/Insect_Project.csv", destfile =  "/cloud/project/Data/Insect_Project.csv")
-``` 
+```
 
 ```{r}
 read_csv("/cloud/project/Data/Insect_Project.csv")

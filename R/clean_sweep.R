@@ -1,9 +1,10 @@
 #'Cleaning function to remove NA values from the original CSV file and save that as a new CSV  
-
-#' @param filename - the filepath to my original CSV
+#`
+#' @param filepath - the filepath to my original CSV
 #' 
 #' @return a new CSV file with no NA values called new_data
 #' 
+#' @export
 
 clean_sweep <- function(filepath){
 raw_data <- read.csv(filepath)
