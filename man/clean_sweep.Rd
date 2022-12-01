@@ -7,7 +7,7 @@
 clean_sweep(filepath)
 }
 \arguments{
-\item{filename}{\itemize{
+\item{filepath}{\itemize{
 \item the filepath to my original CSV
 }}
 }

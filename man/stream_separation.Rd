@@ -4,10 +4,10 @@
 \alias{stream_separation}
 \title{Separates the stream sites in my original csv file and returns 2 separate new csv files}
 \usage{
-stream_separation()
+stream_separation(filepath)
 }
 \arguments{
-\item{filename}{\itemize{
+\item{filepath}{\itemize{
 \item the filepath to my original CSV
 }}
 }
